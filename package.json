@@ -29,14 +29,6 @@
     "typescript-eslint": "^8.59.0"
   },
   "pnpm": {
-  "onlyBuiltDependencies": [
-    "esbuild",
-    "sharp"
-  ],
-  "allowedScripts": [
-    "esbuild",
-    "sharp"
-  ],
   "overrides": {
     "undici@<6.24.0": ">=6.24.0",
     "tar@<=7.5.10": ">=7.5.11",
