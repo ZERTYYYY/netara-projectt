@@ -7,12 +7,13 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "lint": "eslint src --ext .ts,.astro"
-  },
+  "dev": "astro dev",
+  "build": "astro build",
+  "preview": "astro preview",
+  "astro": "astro",
+  "lint": "eslint src --ext .ts,.astro",
+  "postinstall": "node --version"
+},,
   "dependencies": {
     "@astrojs/node": "^10.0.6",
     "@lucide/astro": "^1.11.0",
