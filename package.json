@@ -29,22 +29,14 @@
     "typescript-eslint": "^8.59.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ],
-    "approvedBuilds": [
-      "esbuild",
-      "sharp"
-    ],
-    "overrides": {
-      "undici@<6.24.0": ">=6.24.0",
-      "tar@<=7.5.10": ">=7.5.11",
-      "minimatch@>=10.0.0 <10.2.3": ">=10.2.3",
-      "ajv@>=7.0.0-alpha.0 <8.18.0": ">=8.18.0",
-      "smol-toml@<1.6.1": ">=1.6.1",
-      "srvx@<0.11.13": ">=0.11.13",
-      "path-to-regexp@>=8.0.0 <8.4.0": ">=8.4.0"
-    }
+  "overrides": {
+    "undici@<6.24.0": ">=6.24.0",
+    "tar@<=7.5.10": ">=7.5.11",
+    "minimatch@>=10.0.0 <10.2.3": ">=10.2.3",
+    "ajv@>=7.0.0-alpha.0 <8.18.0": ">=8.18.0",
+    "smol-toml@<1.6.1": ">=1.6.1",
+    "srvx@<0.11.13": ">=0.11.13",
+    "path-to-regexp@>=8.0.0 <8.4.0": ">=8.4.0"
   }
+}
 }
